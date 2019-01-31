@@ -32,6 +32,16 @@ function Base.show(io::IO, foo::Foo)
 end
 ```
 
+then
+
+```julia
+julia> Foo(['a', 42, "string"])
+This is a Foo with the following contents:
+    a
+    42
+    string
+```
+
 ## Similar packages
 
 - [IOIndents.jl](https://github.com/KristofferC/IOIndents.jl), which inspired part of the implementation
