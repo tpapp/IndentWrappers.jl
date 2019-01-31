@@ -47,7 +47,7 @@ indent(io::IO, spaces::Integer) = IndentWrapper(io, spaces)
 indent(iw::IndentWrapper, spaces::Integer) = IndentWrapper(iw.parent, iw.spaces + spaces)
 
 function Base.show(io::IO, iw::IndentWrapper)
-    print(io, iw.parent, " indended by $(iw.spaces) spaces")
+    print(io, iw.parent, " indented by $(iw.spaces) spaces")
 end
 
 ####

@@ -31,7 +31,11 @@ end
     @test haskey(iw, :foo)
     @test !haskey(iw, :bar)
     @test iw[:foo] == io[:foo]
-    @test displaysize(io) == displaysize(stdout)
+    @test displaysize(iw) == displaysize(stdout)
     @test get(iw, :foo, 9) == get(io, :foo, 9)
     @test get(iw, :bar, 9) == get(io, :bar, 9)
+end
+
+@testset "show" begin
+    @test repr(indent(stdout, 4)) == repr(stdout) * " indented by 4 spaces"
 end
