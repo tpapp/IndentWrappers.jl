@@ -54,7 +54,7 @@ end
 #### forwarded methods
 ####
 
-Base.in(key_value::Pair, iw::IndentWrapper) = in(key_value, iw.parent, ≡)
+Base.in(key_value::Pair, iw::IndentWrapper) = in(key_value, iw.parent)
 Base.haskey(iw::IndentWrapper, key) = haskey(iw.parent, key)
 Base.getindex(iw::IndentWrapper, key) = getindex(iw.parent, key)
 Base.get(iw::IndentWrapper, key, default) = get(iw.parent, key, default)
