@@ -77,7 +77,7 @@ end
 function Base.write(iw::IndentWrapper, str::Union{SubString{String}, String})
     write_count = 0
     for (i, line) in enumerate(split(str, '\n'; keepempty = true))
-        i == 1 || (write_count += _write_spaces(iw))
+        i == 1 || (write_count += write(iw, '\n'))
         write_count += write(iw.parent, line)
     end
     write_count

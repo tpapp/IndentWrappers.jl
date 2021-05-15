@@ -17,6 +17,14 @@ using IndentWrappers, Test
     @test buffer == expected
 end
 
+@testset "indent string" begin
+    io = IOBuffer()
+    print(indent(io, 4), "hello\nworld")
+    buffer = String(take!(io))
+    expected = "hello\n    world"
+    @test buffer == expected
+end
+
 @testset "write count" begin
     str = "a fish"
     io = indent(IOBuffer(), 8)
