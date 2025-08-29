@@ -3,6 +3,7 @@
 ![Lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)
 [![CI](https://github.com/tpapp/IndentWrappers.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/tpapp/IndentWrappers.jl/actions/workflows/CI.yml)
 [![codecov](https://codecov.io/github/tpapp/IndentWrappers.jl/graph/badge.svg?token=NHtZfMmkmp)](https://codecov.io/github/tpapp/IndentWrappers.jl)
+[![Aqua QA](https://raw.githubusercontent.com/JuliaTesting/Aqua.jl/master/badge.svg)](https://github.com/JuliaTesting/Aqua.jl)
 
 ## Usage
 
