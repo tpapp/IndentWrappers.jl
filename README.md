@@ -1,7 +1,8 @@
 # IndentWrappers
 
 ![Lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)
-[![codecov.io](http://codecov.io/github/tpapp/IndentWrappers.jl/coverage.svg?branch=master)](http://codecov.io/github/tpapp/IndentWrappers.jl?branch=master)
+[![CI](https://github.com/tpapp/IndentWrappers.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/tpapp/IndentWrappers.jl/actions/workflows/CI.yml)
+[![codecov](https://codecov.io/github/tpapp/IndentWrappers.jl/graph/badge.svg?token=NHtZfMmkmp)](https://codecov.io/github/tpapp/IndentWrappers.jl)
 
 ## Usage
 
