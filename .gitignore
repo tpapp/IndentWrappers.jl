@@ -4,3 +4,4 @@
 /Manifest.toml
 /deps/deps.jl
 /docs/build
+/test/Manifest.toml
