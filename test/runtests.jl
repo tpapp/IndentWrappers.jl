@@ -47,3 +47,6 @@ end
 @testset "show" begin
     @test repr(indent(stdout, 4)) == repr(stdout) * " indented by 4 spaces"
 end
+
+using Aqua
+Aqua.test_all(IndentWrappers)

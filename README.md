@@ -1,13 +1,9 @@
 # IndentWrappers
 
-![Lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)<!--
-![Lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)
-![Lifecycle](https://img.shields.io/badge/lifecycle-stable-green.svg)
-![Lifecycle](https://img.shields.io/badge/lifecycle-retired-orange.svg)
-![Lifecycle](https://img.shields.io/badge/lifecycle-archived-red.svg)
-![Lifecycle](https://img.shields.io/badge/lifecycle-dormant-blue.svg) -->
-[![Build Status](https://travis-ci.com/tpapp/IndentWrappers.jl.svg?branch=master)](https://travis-ci.com/tpapp/IndentWrappers.jl)
-[![codecov.io](http://codecov.io/github/tpapp/IndentWrappers.jl/coverage.svg?branch=master)](http://codecov.io/github/tpapp/IndentWrappers.jl?branch=master)
+![Lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)
+[![CI](https://github.com/tpapp/IndentWrappers.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/tpapp/IndentWrappers.jl/actions/workflows/CI.yml)
+[![codecov](https://codecov.io/github/tpapp/IndentWrappers.jl/graph/badge.svg?token=NHtZfMmkmp)](https://codecov.io/github/tpapp/IndentWrappers.jl)
+[![Aqua QA](https://raw.githubusercontent.com/JuliaTesting/Aqua.jl/master/badge.svg)](https://github.com/JuliaTesting/Aqua.jl)
 
 ## Usage
 
